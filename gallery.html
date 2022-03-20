@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo Gallery</title>
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            /* background-image: url("images/wallpap.jpg");
+            background-size: cover; */
+            background-color: #9fe296;
+        }
+
+        img {
+            width: 100%;
+
+        }
+
+        h1::before {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 3px;
+            background-color: rgb(12, 143, 60);
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: animate 3s linear infinite;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <input type="radio" name="photos" id="check1" checked>
+    <input type="radio" name="photos" id="check2">
+    <input type="radio" name="photos" id="check3">
+    <input type="radio" name="photos" id="check4">
+
+    <div class="container">
+        <h1>Photo Gallery</h1>
+        <div class="top-content">
+            <h3>Photo Gallery</h3>
+            <label for="check1">Photos</label>
+            <label for="check2">Festivalwiki</label>
+            <label for="check3">Most popular</label>
+            <label for="check4">Food</label>
+        </div>
+
+
+        <div class="photo-gallery">
+            <div class="pictures pic">
+                <img src="images/pexels-akshay-anil-8282687.jpg">
+            </div>
+
+            <div class="pictures pic">
+                <img src="images/pexels-aneesh-s-3370598.jpg">
+            </div>
+
+            <div class="pictures pic">
+                <img src="images/pexels-firosnv-nv-4704302.jpg">
+            </div>
+
+            <div class="pictures pic">
+                <img src="images/pexels-jimmi-kamballur-6194591.jpg">
+            </div>
+
+            <div class="pictures pic">
+                <img src="images/pexels-kiran-bhaskar-5719740.jpg">
+            </div>
+
+            <div class="pictures pic">
+                <img src="images/pexels-moonhead-7241844.jpg">
+            </div>
+
+            <div class="pictures pic">
+                <img src="images/pexels-nandhu-kumar-5213569.jpg">
+            </div>
+
+            <div class="pictures pic">
+                <img src="images/pexels-nandhu-kumar-6226553.jpg">
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+
+
+
+
+</html>
